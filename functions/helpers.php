@@ -17,6 +17,10 @@ function asset($file)
     return trim(BASE_URL, '/ ') . '/' . trim($file, '/ ');
 }
 
+function url($url)
+{
+    return trim(BASE_URL, '/ ') . '/' . trim($url, '/ ');
+}
 
 
 function dd($var)
@@ -25,4 +29,8 @@ function dd($var)
     var_dump($var);
     exit;
 }
+
+
+
+
 
