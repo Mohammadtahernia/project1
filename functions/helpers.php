@@ -1,8 +1,8 @@
 <?php
 
 
- 
-define('BASE_URL', 'https://localhost/php-project/');
+
+define('BASE_URL', 'https://localhost/php-project/project1');
 
 
 function redirect($url)
